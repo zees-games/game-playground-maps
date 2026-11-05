@@ -607,5 +607,9 @@
    "colour": "#b9b4aa"
   }
  ],
- "declared": []
+ "declared": [],
+ "ambient": {
+  "level": 1.2,
+  "lively": true
+ }
 }

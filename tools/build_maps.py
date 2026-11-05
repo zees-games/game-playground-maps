@@ -1863,6 +1863,7 @@ AMBIENT = {
     "pgc_nature": (1.5, True),
     "pgc_construct_small": (1.0, False),
     "pgc_smallbase": (0.8, False),
+    "pgc_mountain_resort": (1.2, True),
 }
 
 
