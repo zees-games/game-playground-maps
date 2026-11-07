@@ -1,0 +1,615 @@
+{
+ "format": 1,
+ "kind": "playground_map",
+ "id": "pgc_mountain_resort",
+ "name": "Mountain Resort",
+ "blurb": "A snowbound mountain lodge for building and wiring: a small corner of the resort (terraces and the lodge front) around the author spawn, cut from a much larger valley.",
+ "map_kind": "sandbox",
+ "tier": 1,
+ "author": "prvec",
+ "attribution": "Geometry converted from gm_mountainresort, https://steamcommunity.com/sharedfiles/filedetails/?id=2312309380 by prvec. The author's textures are not carried: surfaces use this game's materials over Kenney's Prototype Textures (CC0). Removed on request.",
+ "spawn": [
+  -57.398,
+  1.0,
+  -87.592
+ ],
+ "spawn_yaw": 90.0,
+ "boxes": [
+  {
+   "at": [
+    -63.97,
+    -0.32,
+    -52.8
+   ],
+   "size": [
+    0.54,
+    0.04,
+    2.9
+   ],
+   "material": "concrete"
+  },
+  {
+   "at": [
+    -63.435,
+    -0.32,
+    -52.92
+   ],
+   "size": [
+    0.53,
+    0.04,
+    2.66
+   ],
+   "material": "concrete"
+  },
+  {
+   "at": [
+    -62.905,
+    -0.32,
+    -53.04
+   ],
+   "size": [
+    0.53,
+    0.04,
+    2.42
+   ],
+   "material": "concrete"
+  },
+  {
+   "at": [
+    -62.37,
+    -0.32,
+    -53.16
+   ],
+   "size": [
+    0.54,
+    0.04,
+    2.18
+   ],
+   "material": "concrete"
+  },
+  {
+   "at": [
+    -61.835,
+    -0.32,
+    -53.28
+   ],
+   "size": [
+    0.53,
+    0.04,
+    1.94
+   ],
+   "material": "concrete"
+  },
+  {
+   "at": [
+    -58.295,
+    -0.32,
+    -53.34
+   ],
+   "size": [
+    6.55,
+    0.04,
+    1.82
+   ],
+   "material": "concrete"
+  },
+  {
+   "at": [
+    -61.495,
+    -0.32,
+    -61.57
+   ],
+   "size": [
+    8.69,
+    0.04,
+    1.82
+   ],
+   "material": "concrete"
+  },
+  {
+   "at": [
+    -62.6,
+    -0.32,
+    -73.38
+   ],
+   "size": [
+    6.48,
+    0.04,
+    1.68
+   ],
+   "material": "concrete"
+  },
+  {
+   "at": [
+    -61.495,
+    -0.32,
+    -75.82
+   ],
+   "size": [
+    8.69,
+    0.04,
+    0.46
+   ],
+   "material": "concrete"
+  },
+  {
+   "at": [
+    -56.069,
+    -0.314,
+    -73.703
+   ],
+   "size": [
+    0.052,
+    0.057,
+    5.252
+   ],
+   "material": "concrete",
+   "colour": "#8d8b86",
+   "turn": [
+    0,
+    1,
+    0,
+    24.43
+   ]
+  },
+  {
+   "at": [
+    -57.059,
+    -0.314,
+    -74.665
+   ],
+   "size": [
+    0.052,
+    0.057,
+    2.012
+   ],
+   "material": "concrete",
+   "colour": "#8d8b86",
+   "turn": [
+    0,
+    1,
+    0,
+    24.62
+   ]
+  },
+  {
+   "at": [
+    -60.31,
+    -0.315,
+    -75.56
+   ],
+   "size": [
+    5.72,
+    0.05,
+    0.06
+   ],
+   "material": "concrete",
+   "colour": "#8d8b86"
+  },
+  {
+   "at": [
+    -63.52,
+    -0.315,
+    -74.905
+   ],
+   "size": [
+    0.06,
+    0.05,
+    1.25
+   ],
+   "material": "concrete",
+   "colour": "#8d8b86"
+  },
+  {
+   "at": [
+    -57.18,
+    -0.315,
+    -56.615
+   ],
+   "size": [
+    0.06,
+    0.05,
+    3.05
+   ],
+   "material": "concrete",
+   "colour": "#8d8b86"
+  },
+  {
+   "at": [
+    -60.275,
+    -0.315,
+    -54.28
+   ],
+   "size": [
+    4.57,
+    0.05,
+    0.06
+   ],
+   "material": "concrete",
+   "colour": "#8d8b86"
+  },
+  {
+   "at": [
+    -58.265,
+    -0.315,
+    -52.4
+   ],
+   "size": [
+    6.61,
+    0.05,
+    0.06
+   ],
+   "material": "concrete",
+   "colour": "#8d8b86"
+  },
+  {
+   "at": [
+    -56.085,
+    -0.32,
+    -63.625
+   ],
+   "size": [
+    2.13,
+    0.04,
+    18.75
+   ],
+   "material": "concrete"
+  },
+  {
+   "at": [
+    -57.295,
+    -0.315,
+    -73.03
+   ],
+   "size": [
+    1.35,
+    0.05,
+    0.06
+   ],
+   "material": "concrete",
+   "colour": "#8d8b86"
+  },
+  {
+   "at": [
+    -60.605,
+    -0.315,
+    -76.075
+   ],
+   "size": [
+    6.95,
+    0.05,
+    0.05
+   ],
+   "material": "concrete",
+   "colour": "#8d8b86"
+  },
+  {
+   "at": [
+    -67.85,
+    -0.315,
+    -78.68
+   ],
+   "size": [
+    0.06,
+    0.05,
+    5.26
+   ],
+   "material": "concrete",
+   "colour": "#8d8b86"
+  },
+  {
+   "at": [
+    -65.95,
+    -0.32,
+    -78.68
+   ],
+   "size": [
+    3.74,
+    0.04,
+    5.26
+   ],
+   "material": "concrete"
+  },
+  {
+   "at": [
+    -64.055,
+    -0.315,
+    -78.68
+   ],
+   "size": [
+    0.05,
+    0.05,
+    5.26
+   ],
+   "material": "concrete",
+   "colour": "#8d8b86"
+  },
+  {
+   "at": [
+    -64.57,
+    -0.324,
+    -84.915
+   ],
+   "size": [
+    6.599,
+    0.038,
+    1.442
+   ],
+   "material": "concrete",
+   "turn": [
+    0,
+    1,
+    0,
+    61.67
+   ]
+  },
+  {
+   "at": [
+    -65.95,
+    -0.32,
+    -82.02
+   ],
+   "size": [
+    1.64,
+    0.04,
+    0.66
+   ],
+   "material": "concrete"
+  },
+  {
+   "at": [
+    -65.418,
+    -0.314,
+    -84.915
+   ],
+   "size": [
+    5.849,
+    0.057,
+    0.051
+   ],
+   "material": "concrete",
+   "colour": "#8d8b86",
+   "turn": [
+    0,
+    1,
+    0,
+    61.67
+   ]
+  },
+  {
+   "at": [
+    -63.19,
+    -0.31,
+    -88.245
+   ],
+   "size": [
+    1.64,
+    0.04,
+    0.21
+   ],
+   "material": "concrete"
+  },
+  {
+   "at": [
+    -63.19,
+    -0.285,
+    -88.455
+   ],
+   "size": [
+    1.64,
+    0.03,
+    0.21
+   ],
+   "material": "concrete"
+  },
+  {
+   "at": [
+    -63.19,
+    -0.32,
+    -87.81
+   ],
+   "size": [
+    1.64,
+    0.04,
+    0.66
+   ],
+   "material": "concrete"
+  },
+  {
+   "at": [
+    -64.04,
+    -0.16,
+    -90.03
+   ],
+   "size": [
+    0.06,
+    0.06,
+    1.26
+   ],
+   "material": "concrete",
+   "colour": "#8d8b86"
+  },
+  {
+   "at": [
+    -64.037,
+    -0.69,
+    -91.411
+   ],
+   "size": [
+    0.057,
+    0.583,
+    1.387
+   ],
+   "material": "concrete",
+   "turn": [
+    1,
+    0,
+    0,
+    -24.98
+   ],
+   "colour": "#8d8b86"
+  },
+  {
+   "at": [
+    -62.02,
+    -1.64,
+    -63.4
+   ],
+   "size": [
+    4.4,
+    0.76,
+    0.92
+   ],
+   "material": "rock"
+  },
+  {
+   "at": [
+    -60.91,
+    -1.315,
+    -62.71
+   ],
+   "size": [
+    7.52,
+    1.71,
+    0.46
+   ],
+   "material": "rock"
+  },
+  {
+   "at": [
+    -57.38,
+    -1.315,
+    -64.425
+   ],
+   "size": [
+    0.46,
+    1.71,
+    3.89
+   ],
+   "material": "rock"
+  },
+  {
+   "at": [
+    -60.91,
+    -0.325,
+    -62.71
+   ],
+   "size": [
+    7.52,
+    0.27,
+    0.46
+   ],
+   "material": "rock"
+  },
+  {
+   "at": [
+    -57.38,
+    -0.325,
+    -64.425
+   ],
+   "size": [
+    0.46,
+    0.27,
+    3.89
+   ],
+   "material": "rock"
+  },
+  {
+   "at": [
+    -63.57,
+    -0.82,
+    -91.85
+   ],
+   "size": [
+    3.96,
+    1.14,
+    3.22
+   ],
+   "material": "concrete"
+  },
+  {
+   "at": [
+    -57.915,
+    -0.82,
+    -88.855
+   ],
+   "size": [
+    0.61,
+    1.14,
+    0.51
+   ],
+   "material": "concrete"
+  },
+  {
+   "at": [
+    -57.445,
+    -0.82,
+    -91.7
+   ],
+   "size": [
+    0.33,
+    1.14,
+    0.56
+   ],
+   "material": "concrete"
+  },
+  {
+   "at": [
+    -57.12,
+    -0.82,
+    -91.605
+   ],
+   "size": [
+    0.32,
+    1.14,
+    0.37
+   ],
+   "material": "concrete"
+  },
+  {
+   "at": [
+    -57.445,
+    -0.82,
+    -91.13
+   ],
+   "size": [
+    0.33,
+    1.14,
+    0.58
+   ],
+   "material": "concrete"
+  },
+  {
+   "at": [
+    -57.12,
+    -0.82,
+    -91.225
+   ],
+   "size": [
+    0.32,
+    1.14,
+    0.39
+   ],
+   "material": "concrete"
+  },
+  {
+   "at": [
+    -57.398,
+    -0.15,
+    -87.592
+   ],
+   "size": [
+    4.0,
+    0.3,
+    4.0
+   ],
+   "material": "concrete",
+   "colour": "#b9b4aa"
+  }
+ ],
+ "declared": [],
+ "ambient": {
+  "level": 1.2,
+  "lively": true
+ }
+}

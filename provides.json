@@ -45,6 +45,13 @@
         },
         {
             "kind": "map",
+            "id": "pgc_mountain_resort",
+            "name": "Mountain Resort",
+            "scene": "maps/pgc_mountain_resort.json",
+            "map_kind": "sandbox"
+        },
+        {
+            "kind": "map",
             "id": "pgc_nature",
             "name": "Nature",
             "scene": "maps/pgc_nature.json",
