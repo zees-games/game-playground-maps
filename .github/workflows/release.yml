@@ -22,7 +22,7 @@ jobs:
 
     release:
         needs: check
-        uses: modcommunity/dot-ci/.github/workflows/release.yml@v1.2.4
+        uses: modcommunity/dot-ci/.github/workflows/release.yml@v1.3.14
         permissions:
             contents: write
         with:
