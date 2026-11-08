@@ -31,6 +31,13 @@
         },
         {
             "kind": "map",
+            "id": "pgc_deadcity",
+            "name": "Dead City",
+            "scene": "maps/pgc_deadcity.json",
+            "map_kind": "sandbox"
+        },
+        {
+            "kind": "map",
             "id": "pgc_harbour",
             "name": "Harbour",
             "scene": "maps/pgc_harbour.json",
@@ -41,6 +48,13 @@
             "id": "pgc_islands",
             "name": "Sky Islands",
             "scene": "maps/pgc_islands.json",
+            "map_kind": "sandbox"
+        },
+        {
+            "kind": "map",
+            "id": "pgc_mallparking",
+            "name": "Mall Parking",
+            "scene": "maps/pgc_mallparking.json",
             "map_kind": "sandbox"
         },
         {
@@ -80,6 +94,13 @@
         },
         {
             "kind": "map",
+            "id": "pgc_shambles",
+            "name": "Shambles",
+            "scene": "maps/pgc_shambles.json",
+            "map_kind": "sandbox"
+        },
+        {
+            "kind": "map",
             "id": "pgc_site",
             "name": "Construction Site",
             "scene": "maps/pgc_site.json",
@@ -104,6 +125,13 @@
             "id": "pgc_town",
             "name": "Town",
             "scene": "maps/pgc_town.json",
+            "map_kind": "sandbox"
+        },
+        {
+            "kind": "map",
+            "id": "pgc_valley",
+            "name": "Valley",
+            "scene": "maps/pgc_valley.json",
             "map_kind": "sandbox"
         },
         {
