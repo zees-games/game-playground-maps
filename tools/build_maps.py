@@ -1571,7 +1571,7 @@ def nature():
 # a trampoline or a pad and a pad's seven metres of flight ahead of it clear. A hint that finds
 # nowhere is an error, never a toy left out, because a switch names its lamps by index.
 
-# What each toy stands in, in its own frame, as dot-props' DotPropToy._footprint (and the
+# What each toy stands in, in its own frame, as dot-props' DotPropBody._footprint (and the
 # loose toys' sizes): x0, x1, z0, z1, height.
 TOY_BOX = {
     "beach_ball": (-0.5, 0.5, -0.5, 0.5, 1.0), "football": (-0.15, 0.15, -0.15, 0.15, 0.3),
