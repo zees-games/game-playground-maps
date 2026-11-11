@@ -111,7 +111,7 @@ def doc(id_, name, blurb, spawn, spawn_yaw, boxes, declared, tier=1, props=None,
 
 # --- Props ---------------------------------------------------------------------------------
 #
-# A map's props are catalogue ids game-playground puts down when the map loads (pg_data.gd's
+# A map's props are catalogue ids game-playlot puts down when the map loads (pg_data.gd's
 # `props`). `at` is the body's centre, so a prop standing on a floor at y is at y + half its
 # height. Frozen unless loose=True: furniture that falls over on load is not furniture.
 
@@ -516,7 +516,7 @@ def slopes():
     boxes.append(box((74.5, lip / 2.0, 0), (5, lip, 60), "platform", material="concrete"))
     declared = wall_tops(size, wall_h, "the tops of the walls, 6 m up: they keep props in")
     # The frozen pond: water 2.4 m deep under thin ice level with the grass, which holds a walker
-    # and breaks under a landing or a shot (game-playground's thin ice). Steps across its east
+    # and breaks under a landing or a shot (game-playlot's thin ice). Steps across its east
     # edge climb out; under the ice they and the bed are out of reach, and declared.
     fx0, fx1, fz0, fz1 = pond
     boxes.append(mat("sand", ((fx0 + fx1) / 2, -3.0, (fz0 + fz1) / 2), (fx1 - fx0, 1.0, fz1 - fz0)))
@@ -1238,7 +1238,7 @@ def harbour():
         props.append(prop("barrel", lx - 4.5, top, lz - 1.5 + k * 1.5, loose=True))
     for k in range(4):
         props.append(prop("plank", 30.0, k * 0.15, 4.0, loose=True))
-    # Floating on the surface, not on the bed: game-playground's buoyancy launched a beach ball
+    # Floating on the surface, not on the bed: game-playlot's buoyancy launched a beach ball
     # put down under 3.4 m of water two kilometres into the air (tools/map_props.gd, 2026-10-07).
     for at in ((-30.0, -60.0), (10.0, -70.0), (45.0, -50.0), (-75.0, -30.0)):
         props.append(prop("beach_ball", at[0], basin + 3.4, at[1], loose=True))
@@ -1475,7 +1475,7 @@ def nature():
     boxes.append(ramp_z(px, edge - 1.5 - 4.5, 0.1, edge - 1.5, rim, 4.0, "#8a7a62"))
     boxes.append(ramp_z(px, edge + 1.5 + 4.5, 0.1, edge + 1.5, rim, 4.0, "#8a7a62"))
     # Floating where they float (a barrel 0.05 m in, a beach ball on top), not on the bed: put down
-    # under the water, game-playground's buoyancy threw them tens and hundreds of metres up.
+    # under the water, game-playlot's buoyancy threw them tens and hundreds of metres up.
     surface = (0.1 + rim - 0.2) / 2 + 0.05 + (rim - 0.3) / 2
     for k in range(3):
         props.append(prop("barrel", px - 8 + k * 6, surface - 0.05, pz + 4, loose=True))
@@ -1521,7 +1521,7 @@ def nature():
 
     # A frozen lake in the north: deep water under a sheet of thin ice, in a 2 m stone basin, and
     # a diving board on a wooden tower over it. The ice holds a walker; a drop off the board is
-    # 3 m, fast enough to go through (game-playground breaks thin ice like glass, from impacts).
+    # 3 m, fast enough to go through (game-playlot breaks thin ice like glass, from impacts).
     fx, fz, fw, fd, frim = 10.0, -80.0, 24.0, 16.0, 2.0
     for side in (-1, 1):
         boxes.append(mat("rock", (fx + side * (fw / 2 + 0.5), frim / 2, fz), (1.0, frim, fd + 2.0)))
@@ -1563,7 +1563,7 @@ def nature():
 
 # --- Toys ------------------------------------------------------------------------------------
 #
-# dot-props' toys (game-playground builds them from the document's `toys`, both ends, in this
+# dot-props' toys (game-playlot builds them from the document's `toys`, both ends, in this
 # order: the order is how a client pairs each with the server's). A map says roughly where it
 # wants each one, `(id, x, z)` near a floor at about `y`, and `settle` moves it to the nearest
 # spot within 14 m that is floored flat under its whole footprint (no liquid, no foliage), clear
@@ -1585,7 +1585,7 @@ TOY_BOX = {
     "horn": (-0.3, 0.3, -0.3, 0.3, 1.5), "bell": (-0.7, 0.7, -0.3, 0.3, 2.3),
 }
 LAUNCHERS = ("trampoline", "bounce_pad")
-# Built with no collider (game-playground's PlaygroundMaterials.is_volume), or not a floor to
+# Built with no collider (game-playlot's PlaygroundMaterials.is_volume), or not a floor to
 # put a toy on (thin ice breaks).
 NOT_FLOOR = ("water", "lava", "slime", "foliage", "thin_ice")
 NO_BODY = ("water", "lava", "slime", "foliage")

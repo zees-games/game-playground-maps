@@ -1,6 +1,6 @@
-# game-playground-maps
+# playlot-maps
 
-Custom sandbox maps for [game-playground](../game-playground), as JSON documents: boxes, a spawn, and the places a player is not meant to reach.
+Custom sandbox maps for [game-playlot](../game-playground), as JSON documents: boxes, a spawn, and the places a player is not meant to reach.
 
 - `maps/pgc_plots.json` — **Build Plots**: eight plots of eight grounds (ice and rubber among them) with claim pads round a spawn plaza, a depot of planks and crates, trampolines, a pond, and a viewing deck.
 - `maps/pgc_quarry.json` — **Quarry**: a two-terrace pit with ramps, rails and a cart, a flooded sump with steps out, boulders on the rim, barrels to blow up, and a blasting hut with a lever on its door.
@@ -23,6 +23,6 @@ Custom sandbox maps for [game-playground](../game-playground), as JSON documents
 
 `pgc_construct_small` (Wylie) and `pgc_smallbase` (Rouglead) are community maps converted with the author's credit; the page of each says nothing against sharing, and the site's default licence line on both is CC BY-NC-ND 4.0, so they are shared non-commercially, credited and removed on request. Each document carries an `attribution` field. Only the geometry is converted: the authors' textures are not carried, and surfaces use this game's materials over Kenney's Prototype Textures (CC0). A map is removed on the author's request. `tools/import_bsp.py` is the converter (`python3 -I tools/import_bsp.py <map.bsp> <config>`).
 
-The game picks these up through a link (`game-playground/maps/custom`, made by dot-bootstrap) or, delivered, as a pack the game names under `dependencies`. Edit `tools/build_maps.py` and run it to change a map; the format is described in game-playground's `maps/pg_data.gd`.
+The game picks these up through a link (`game-playground/maps/custom`, made by dot-bootstrap) or, delivered, as a pack the game names under `dependencies`. Edit `tools/build_maps.py` and run it to change a map; the format is described in game-playlot's `maps/pg_data.gd`.
 
 MIT licensed.

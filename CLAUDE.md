@@ -1,8 +1,8 @@
-# game-playground-maps
+# playlot-maps
 
-Custom sandbox maps for game-playground, as JSON documents written by `tools/build_maps.py`. The format is defined, validated and built by game-playground's `maps/pg_data.gd`; this repository only holds the documents and the builder.
+Custom sandbox maps for game-playlot, as JSON documents written by `tools/build_maps.py`. The format is defined, validated and built by game-playlot's `maps/pg_data.gd`; this repository only holds the documents and the builder.
 
-Read the family [CLAUDE.md](../../CLAUDE.md) and game-playground's [CLAUDE.md](../game-playground/CLAUDE.md) first, and its [maps.md](../game-playground/docs/maps.md) for the format, materials and the survey.
+Read the family [CLAUDE.md](../../CLAUDE.md) and game-playlot's [CLAUDE.md](../game-playground/CLAUDE.md) first, and its [maps.md](../game-playground/docs/maps.md) for the format, materials and the survey.
 
 ## Read before
 
@@ -16,7 +16,7 @@ Read the family [CLAUDE.md](../../CLAUDE.md) and game-playground's [CLAUDE.md](.
 
 | Path | What |
 | --- | --- |
-| `maps/*.json` | the fifteen documents (`pgc_*`), committed (twelve built by `build_maps.py`, three converted by `import_bsp.py`, which `--check` does not rewrite); linked into game-playground as `maps/custom` by dot-bootstrap |
+| `maps/*.json` | the fifteen documents (`pgc_*`), committed (twelve built by `build_maps.py`, three converted by `import_bsp.py`, which `--check` does not rewrite); linked into game-playlot as `maps/custom` by dot-bootstrap |
 | `tools/build_maps.py` | writes every document; `--check` fails when a committed file differs |
 | `tools/import_bsp.py`, `tools/bsp_read.py` | converts a community BSP to a document: brushes to boxes by dot-map-convert's `boxes.decompose(tilt=True)` (never a local copy; this file is only the adapter: document format, `GAME_MATERIAL`, configs), a brush's surface from dot-map's shared `tools/bsp/dotbsp/source_textures.tsv` (a new texture goes there, never here; `bsp.py unmapped <bsp>` lists what it misses), turned into this game's materials by `GAME_MATERIAL`; the config table holds each map's credit, region and any `overrides` the list cannot say |
 | `.github/workflows/` | `check.yml` (the builder's `--check`), `release.yml` (the pack, from a `v*` tag) |
@@ -24,7 +24,7 @@ Read the family [CLAUDE.md](../../CLAUDE.md) and game-playground's [CLAUDE.md](.
 ## Running and testing
 
 - Edit `tools/build_maps.py`, run `python3 tools/build_maps.py`, commit the builder and the JSON together. `python3 tools/build_maps.py --check` must pass.
-- Then, in game-playground: `headless_playground` surveys every map (slots, reachability, traps), `tools/map_props.gd` loads every map and checks props stay put, and `tools/screenshot.sh <map>` renders one. A map change is not done until all three pass and the picture has been looked at. [building](docs/building.md#checking-a-map)
+- Then, in game-playlot: `headless_playground` surveys every map (slots, reachability, traps), `tools/map_props.gd` loads every map and checks props stay put, and `tools/screenshot.sh <map>` renders one. A map change is not done until all three pass and the picture has been looked at. [building](docs/building.md#checking-a-map)
 
 ## Rules that bite
 
@@ -36,7 +36,7 @@ Read the family [CLAUDE.md](../../CLAUDE.md) and game-playground's [CLAUDE.md](.
 - Never give a slow material (grass, dirt, sand, snow) to anything a jump was measured on. [building](docs/building.md#materials)
 - Never put a loose prop under water; place it at its waterline. [building](docs/building.md#props-and-wires)
 - Toys are hints in `TOYS` that `settle` moves onto clear floor; a hint that settles nowhere is an error, never a toy left out (a switch names lamps by index). [building](docs/building.md#toys)
-- Keep `HALF_HEIGHT` in step with game-playground's prop catalogue. [building](docs/building.md#props-and-wires)
+- Keep `HALF_HEIGHT` in step with game-playlot's prop catalogue. [building](docs/building.md#props-and-wires)
 - Declare what is meant to be unreached (crane jibs, shelves, container tops, lake beds) rather than let the survey fail on it. [building](docs/building.md#checking-a-map)
 - A survey slot between tilted boxes may be the AABB reading; check before believing it. [history](docs/history.md#the-bowls-sixteen-slots-that-were-not-there)
 - The pack is a `dependencies` pack, not `server_dependencies`: the client builds the map too. [building](docs/building.md#delivery)
