@@ -1869,6 +1869,9 @@ AMBIENT = {
     "pgc_vyten": (1.1, False),
     "pgc_southside": (1.3, False),
     "pgc_asheville": (1.2, False),
+    "pgc_boreas": (1.0, True),
+    "pgc_bigisland": (1.3, True),
+    "pgc_rooftops": (1.2, False),
 }
 
 

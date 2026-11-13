@@ -24,6 +24,20 @@
         },
         {
             "kind": "map",
+            "id": "pgc_bigisland",
+            "name": "Big Island",
+            "scene": "maps/pgc_bigisland.json",
+            "map_kind": "sandbox"
+        },
+        {
+            "kind": "map",
+            "id": "pgc_boreas",
+            "name": "Boreas",
+            "scene": "maps/pgc_boreas.json",
+            "map_kind": "sandbox"
+        },
+        {
+            "kind": "map",
             "id": "pgc_bowl",
             "name": "Fling Bowl",
             "scene": "maps/pgc_bowl.json",
@@ -111,6 +125,13 @@
             "id": "pgc_quarry",
             "name": "Quarry",
             "scene": "maps/pgc_quarry.json",
+            "map_kind": "sandbox"
+        },
+        {
+            "kind": "map",
+            "id": "pgc_rooftops",
+            "name": "Rooftops",
+            "scene": "maps/pgc_rooftops.json",
             "map_kind": "sandbox"
         },
         {
