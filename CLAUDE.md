@@ -16,7 +16,7 @@ Read the family [CLAUDE.md](../../CLAUDE.md) and game-playlot's [CLAUDE.md](../g
 
 | Path | What |
 | --- | --- |
-| `maps/*.json` | the fifteen documents (`pgc_*`), committed (twelve built by `build_maps.py`, three converted by `import_bsp.py`, which `--check` does not rewrite); linked into game-playlot as `maps/custom` by dot-bootstrap |
+| `maps/*.json` | the twenty-four documents (`pgc_*`), committed (twelve built by `build_maps.py`, twelve converted by `import_bsp.py`, which `--check` does not rewrite); linked into game-playlot as `maps/custom` by dot-bootstrap |
 | `tools/build_maps.py` | writes every document; `--check` fails when a committed file differs |
 | `tools/import_bsp.py`, `tools/bsp_read.py` | converts a community BSP to a document: brushes to boxes by dot-map-convert's `boxes.decompose(tilt=True)` (never a local copy; this file is only the adapter: document format, `GAME_MATERIAL`, configs), a brush's surface from dot-map's shared `tools/bsp/dotbsp/source_textures.tsv` (a new texture goes there, never here; `bsp.py unmapped <bsp>` lists what it misses), turned into this game's materials by `GAME_MATERIAL`; the config table holds each map's credit, region and any `overrides` the list cannot say |
 | `.github/workflows/` | `check.yml` (the builder's `--check`), `release.yml` (the pack, from a `v*` tag) |

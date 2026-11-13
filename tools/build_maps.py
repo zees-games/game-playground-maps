@@ -1864,6 +1864,11 @@ AMBIENT = {
     "pgc_construct_small": (1.0, False),
     "pgc_smallbase": (0.8, False),
     "pgc_mountain_resort": (1.2, True),
+    "pgc_fork": (1.0, True),
+    "pgc_balkans": (1.1, False),
+    "pgc_vyten": (1.1, False),
+    "pgc_southside": (1.3, False),
+    "pgc_asheville": (1.2, False),
 }
 
 

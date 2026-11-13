@@ -10,6 +10,20 @@
     "entries": [
         {
             "kind": "map",
+            "id": "pgc_asheville",
+            "name": "Asheville",
+            "scene": "maps/pgc_asheville.json",
+            "map_kind": "sandbox"
+        },
+        {
+            "kind": "map",
+            "id": "pgc_balkans",
+            "name": "Balkans",
+            "scene": "maps/pgc_balkans.json",
+            "map_kind": "sandbox"
+        },
+        {
+            "kind": "map",
             "id": "pgc_bowl",
             "name": "Fling Bowl",
             "scene": "maps/pgc_bowl.json",
@@ -34,6 +48,13 @@
             "id": "pgc_deadcity",
             "name": "Dead City",
             "scene": "maps/pgc_deadcity.json",
+            "map_kind": "sandbox"
+        },
+        {
+            "kind": "map",
+            "id": "pgc_fork",
+            "name": "Fork",
+            "scene": "maps/pgc_fork.json",
             "map_kind": "sandbox"
         },
         {
@@ -122,6 +143,13 @@
         },
         {
             "kind": "map",
+            "id": "pgc_southside",
+            "name": "South Side",
+            "scene": "maps/pgc_southside.json",
+            "map_kind": "sandbox"
+        },
+        {
+            "kind": "map",
             "id": "pgc_town",
             "name": "Town",
             "scene": "maps/pgc_town.json",
@@ -132,6 +160,13 @@
             "id": "pgc_valley",
             "name": "Valley",
             "scene": "maps/pgc_valley.json",
+            "map_kind": "sandbox"
+        },
+        {
+            "kind": "map",
+            "id": "pgc_vyten",
+            "name": "Vyten",
+            "scene": "maps/pgc_vyten.json",
             "map_kind": "sandbox"
         },
         {
