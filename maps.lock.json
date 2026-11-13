@@ -1,0 +1,223 @@
+{
+	"format": 1,
+	"mirrors": [],
+	"origin": "https://dev.dotgames.org/content",
+	"packs": [
+		{
+			"id": "gamemann/pgc_asheville",
+			"into": "",
+			"kind": "pack",
+			"manifest_sha256": "f689b9d2a010eade9489f9a62a6d052513733269970f2d21a2a0b81547db9f29",
+			"optional": false,
+			"version": "1.0.0"
+		},
+		{
+			"id": "gamemann/pgc_balkans",
+			"into": "",
+			"kind": "pack",
+			"manifest_sha256": "871081a18e8e53b26b35463c417ba631e4ebc2805c32cc6645a8878119cb8515",
+			"optional": false,
+			"version": "1.0.0"
+		},
+		{
+			"id": "gamemann/pgc_bigisland",
+			"into": "",
+			"kind": "pack",
+			"manifest_sha256": "13f669a09732a8360fc92b9103757e8c760ae0df52d5d4a23f004ac580959942",
+			"optional": false,
+			"version": "1.0.0"
+		},
+		{
+			"id": "gamemann/pgc_boreas",
+			"into": "",
+			"kind": "pack",
+			"manifest_sha256": "ea2bbaef3f4934396d445b510453f23c802df3eef49dbc6d9964e71d30698108",
+			"optional": false,
+			"version": "1.0.0"
+		},
+		{
+			"id": "gamemann/pgc_bowl",
+			"into": "",
+			"kind": "pack",
+			"manifest_sha256": "c926a6505c469bedb6e527b0b0d85cc712079258469e15a8c5006da46a1acec1",
+			"optional": false,
+			"version": "1.0.0"
+		},
+		{
+			"id": "gamemann/pgc_canyon",
+			"into": "",
+			"kind": "pack",
+			"manifest_sha256": "1054732a1b6d88395c847ae54eae6a782b4ade3ebaae305c35b5eac66aba3f33",
+			"optional": false,
+			"version": "1.0.0"
+		},
+		{
+			"id": "gamemann/pgc_construct_small",
+			"into": "",
+			"kind": "pack",
+			"manifest_sha256": "d7edfaa24585a240b31aa6e8230e6749eba751323b9df80375ba278f6282119a",
+			"optional": false,
+			"version": "1.0.0"
+		},
+		{
+			"id": "gamemann/pgc_deadcity",
+			"into": "",
+			"kind": "pack",
+			"manifest_sha256": "87764fb775f8db6497c03c0c18cda7ee97ed7b36dbdab23392995cb31ccca044",
+			"optional": false,
+			"version": "1.0.0"
+		},
+		{
+			"id": "gamemann/pgc_fork",
+			"into": "",
+			"kind": "pack",
+			"manifest_sha256": "e5df68c15ae4ad0cee2abcd81132829d5bc4752b0657c769ea843a05d21d277e",
+			"optional": false,
+			"version": "1.0.0"
+		},
+		{
+			"id": "gamemann/pgc_harbour",
+			"into": "",
+			"kind": "pack",
+			"manifest_sha256": "876d36fe841628c184c3225eff80c61ce993baa975193e4246d370e9289d3a00",
+			"optional": false,
+			"version": "1.0.0"
+		},
+		{
+			"id": "gamemann/pgc_islands",
+			"into": "",
+			"kind": "pack",
+			"manifest_sha256": "5e56779224e752e4e7b9ca3f9534fa673d910c981c67089d5fcb6102db3508ec",
+			"optional": false,
+			"version": "1.0.0"
+		},
+		{
+			"id": "gamemann/pgc_mallparking",
+			"into": "",
+			"kind": "pack",
+			"manifest_sha256": "c0dbc6696a03b094ddc9ebf033afeaae8394a547227f5292a6defa4dd3ee7f3f",
+			"optional": false,
+			"version": "1.0.0"
+		},
+		{
+			"id": "gamemann/pgc_mountain_resort",
+			"into": "",
+			"kind": "pack",
+			"manifest_sha256": "46ac596c0b69db3d5383443e0b2ca07585d61a40e5010042be8dce48592bbfd2",
+			"optional": false,
+			"version": "1.0.0"
+		},
+		{
+			"id": "gamemann/pgc_nature",
+			"into": "",
+			"kind": "pack",
+			"manifest_sha256": "f649c2cac17df0254f584ca9dc0d698fb0bcf7b4ba7270d7506c4292f4c904c6",
+			"optional": false,
+			"version": "1.0.0"
+		},
+		{
+			"id": "gamemann/pgc_obstacle",
+			"into": "",
+			"kind": "pack",
+			"manifest_sha256": "1aa27c0306b291e752edd0aae023f3e82f11c545fe9b14f028e463dff65d1229",
+			"optional": false,
+			"version": "1.0.0"
+		},
+		{
+			"id": "gamemann/pgc_plots",
+			"into": "",
+			"kind": "pack",
+			"manifest_sha256": "0dd8113a0d9fd8edb296d2034b93a6e9fc27109d53e4b3061d8eefea302174bb",
+			"optional": false,
+			"version": "1.0.0"
+		},
+		{
+			"id": "gamemann/pgc_quarry",
+			"into": "",
+			"kind": "pack",
+			"manifest_sha256": "7fd0f53af690bc045b473b2b52ad4992b199b9f070696868967e480aa7d7b829",
+			"optional": false,
+			"version": "1.0.0"
+		},
+		{
+			"id": "gamemann/pgc_rooftops",
+			"into": "",
+			"kind": "pack",
+			"manifest_sha256": "dd94f1e719d66969f983b48b95c5461375c144b9dbb2c91841d5eac874fd1fc3",
+			"optional": false,
+			"version": "1.0.0"
+		},
+		{
+			"id": "gamemann/pgc_shambles",
+			"into": "",
+			"kind": "pack",
+			"manifest_sha256": "1e270d7459c2bcfd3c1dd44f0c8b9bebc086e08d8896bd2fce2389ba72d6cc79",
+			"optional": false,
+			"version": "1.0.0"
+		},
+		{
+			"id": "gamemann/pgc_site",
+			"into": "",
+			"kind": "pack",
+			"manifest_sha256": "9783bf28b9f29ef128b78cc5b952c999e1932dbbe894adea4b450dbe83fb9eb3",
+			"optional": false,
+			"version": "1.0.0"
+		},
+		{
+			"id": "gamemann/pgc_slopes",
+			"into": "",
+			"kind": "pack",
+			"manifest_sha256": "76dd2d510fc25141d1f5758a44e6bbe4b3cdb084f12e983adb2d20abb43aee10",
+			"optional": false,
+			"version": "1.0.0"
+		},
+		{
+			"id": "gamemann/pgc_smallbase",
+			"into": "",
+			"kind": "pack",
+			"manifest_sha256": "f09671c1c5876804bdd0a7563dbbcc3b2982ea6bf47959dc3e30dba5e77f312d",
+			"optional": false,
+			"version": "1.0.0"
+		},
+		{
+			"id": "gamemann/pgc_southside",
+			"into": "",
+			"kind": "pack",
+			"manifest_sha256": "2326c4d690cd7d522cde64e292b7e8de138d52f006b5a5a6e2d51b9e2aa74825",
+			"optional": false,
+			"version": "1.0.0"
+		},
+		{
+			"id": "gamemann/pgc_town",
+			"into": "",
+			"kind": "pack",
+			"manifest_sha256": "814c17653518cc350d67569025d7e7469058712692569601098152e8b4451654",
+			"optional": false,
+			"version": "1.0.0"
+		},
+		{
+			"id": "gamemann/pgc_valley",
+			"into": "",
+			"kind": "pack",
+			"manifest_sha256": "1d78040a99572c40fa96cc544c5de6023173367b8296913d4499d9b186654ea1",
+			"optional": false,
+			"version": "1.0.0"
+		},
+		{
+			"id": "gamemann/pgc_vyten",
+			"into": "",
+			"kind": "pack",
+			"manifest_sha256": "c94a8b7e734f043a5aa1f7e2e30ab77b950678831a28cea0c1fd574135a1cdb1",
+			"optional": false,
+			"version": "1.0.0"
+		},
+		{
+			"id": "gamemann/pgc_warehouse",
+			"into": "",
+			"kind": "pack",
+			"manifest_sha256": "1e097f04a110dbab0b8b424965c4ba835fb84f4406c95ff90d24b77c0296c0d5",
+			"optional": false,
+			"version": "1.0.0"
+		}
+	]
+}
