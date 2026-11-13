@@ -7,7 +7,7 @@
  "map_kind": "sandbox",
  "tier": 1,
  "author": "SuspiciouslyAwesome (Tim Richter)",
- "attribution": "Geometry converted from gm_valley, https://steamcommunity.com/sharedfiles/filedetails/?id=104483504 by SuspiciouslyAwesome (Tim Richter). The author's textures are not carried: surfaces use this game's materials over Kenney's Prototype Textures (CC0). Removed on request.",
+ "attribution": "Geometry converted from gm_valley, https://steamcommunity.com/sharedfiles/filedetails/?id=104483504 by SuspiciouslyAwesome (Tim Richter). The author's textures are not carried: surfaces use this game's materials over Kenney's Prototype Textures (CC0). The author can have this conversion removed: contact https://github.com/zees-games/playlot-maps/issues.",
  "spawn": [
   112.186,
   1.0,

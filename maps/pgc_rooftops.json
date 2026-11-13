@@ -7,7 +7,7 @@
  "map_kind": "sandbox",
  "tier": 1,
  "author": "youmenow1",
- "attribution": "Geometry converted from ttt_rooftops_2016, https://steamcommunity.com/sharedfiles/filedetails/?id=534491717 by youmenow1. The author's textures are not carried: surfaces use this game's materials over Kenney's Prototype Textures (CC0). Removed on request.",
+ "attribution": "Geometry converted from ttt_rooftops_2016, https://steamcommunity.com/sharedfiles/filedetails/?id=534491717 by youmenow1. The author's textures are not carried: surfaces use this game's materials over Kenney's Prototype Textures (CC0). The author can have this conversion removed: contact https://github.com/zees-games/playlot-maps/issues.",
  "spawn": [
   -0.248,
   1.0,

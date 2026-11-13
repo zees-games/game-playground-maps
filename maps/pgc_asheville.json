@@ -7,7 +7,7 @@
  "map_kind": "sandbox",
  "tier": 1,
  "author": "VanderAGSN",
- "attribution": "Geometry converted from rp_asheville, https://steamcommunity.com/sharedfiles/filedetails/?id=2595136841 by VanderAGSN. The author's textures are not carried: surfaces use this game's materials over Kenney's Prototype Textures (CC0). Removed on request.",
+ "attribution": "Geometry converted from rp_asheville, https://steamcommunity.com/sharedfiles/filedetails/?id=2595136841 by VanderAGSN. The author's textures are not carried: surfaces use this game's materials over Kenney's Prototype Textures (CC0). The author can have this conversion removed: contact https://github.com/zees-games/playlot-maps/issues.",
  "spawn": [
   -222.447,
   1.0,

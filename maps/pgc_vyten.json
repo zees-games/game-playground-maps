@@ -7,7 +7,7 @@
  "map_kind": "sandbox",
  "tier": 1,
  "author": "Raxten",
- "attribution": "Geometry converted from gm_vyten, https://steamcommunity.com/sharedfiles/filedetails/?id=1449731878 by Raxten. The author's textures are not carried: surfaces use this game's materials over Kenney's Prototype Textures (CC0). Removed on request.",
+ "attribution": "Geometry converted from gm_vyten, https://steamcommunity.com/sharedfiles/filedetails/?id=1449731878 by Raxten. The author's textures are not carried: surfaces use this game's materials over Kenney's Prototype Textures (CC0). The author can have this conversion removed: contact https://github.com/zees-games/playlot-maps/issues.",
  "spawn": [
   -198.425,
   1.0,

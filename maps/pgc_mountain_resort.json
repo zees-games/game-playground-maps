@@ -7,7 +7,7 @@
  "map_kind": "sandbox",
  "tier": 1,
  "author": "prvec",
- "attribution": "Geometry converted from gm_mountainresort, https://steamcommunity.com/sharedfiles/filedetails/?id=2312309380 by prvec. The author's textures are not carried: surfaces use this game's materials over Kenney's Prototype Textures (CC0). Removed on request.",
+ "attribution": "Geometry converted from gm_mountainresort, https://steamcommunity.com/sharedfiles/filedetails/?id=2312309380 by prvec. The author's textures are not carried: surfaces use this game's materials over Kenney's Prototype Textures (CC0). The author can have this conversion removed: contact https://github.com/zees-games/playlot-maps/issues.",
  "spawn": [
   -57.398,
   1.0,

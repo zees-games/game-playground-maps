@@ -7,7 +7,7 @@
  "map_kind": "sandbox",
  "tier": 1,
  "author": "Fishke",
- "attribution": "Geometry converted from rp_southside, https://steamcommunity.com/sharedfiles/filedetails/?id=2010286798 by Fishke. The author's textures are not carried: surfaces use this game's materials over Kenney's Prototype Textures (CC0). Removed on request.",
+ "attribution": "Geometry converted from rp_southside, https://steamcommunity.com/sharedfiles/filedetails/?id=2010286798 by Fishke. The author's textures are not carried: surfaces use this game's materials over Kenney's Prototype Textures (CC0). The author can have this conversion removed: contact https://github.com/zees-games/playlot-maps/issues.",
  "spawn": [
   12.497,
   1.0,
