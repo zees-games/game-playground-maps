@@ -1,36 +1,54 @@
 # playlot-maps
 
-Custom sandbox maps for [game-playlot](../game-playground), as JSON documents: boxes, a spawn, and the places a player is not meant to reach.
+Custom sandbox maps for [Playlot](https://github.com/zees-games/game-playlot), as JSON documents: boxes, a spawn, and the places a player is not meant to reach. Playlot loads them as custom maps.
 
-- `maps/pgc_plots.json` — **Build Plots**: eight plots of eight grounds (ice and rubber among them) with claim pads round a spawn plaza, a depot of planks and crates, trampolines, a pond, and a viewing deck.
-- `maps/pgc_quarry.json` — **Quarry**: a two-terrace pit with ramps, rails and a cart, a flooded sump with steps out, boulders on the rim, barrels to blow up, and a blasting hut with a lever on its door.
-- `maps/pgc_slopes.json` — **Slide Hill**: a hill to a high deck with a pen to be thrown from, sleds waiting at the head of a snow slope with an ice run-out, a halfpipe, and a frozen pond with thin ice.
-- `maps/pgc_town.json` — **Town**: two roads, five buildings with glass windows, doors on buttons and ramps to their roofs, a fountain plaza with a stage, stalls, hedges and a trampoline, and a car park with two buggies.
-- `maps/pgc_islands.json` — **Sky Islands**: six floating islands climbing a ring on bridges over a lava lake, and an ice slide from the top one back to the first, with boulders waiting at its head.
-- `maps/pgc_mountain_resort.json` — **Mountain Resort**: a resort on a mountain side converted from the Workshop map by prvec (Workshop 2312309380; credit, and removal on request). Regenerate with `python3 -I tools/import_bsp.py <bsp> mountain_resort`.
-- `maps/pgc_fork.json` — **Fork**: a road junction and the buildings around the author spawn, converted from the Workshop map gm_fork by Blueberry_pie (Workshop 326332456; credit, and removal on request).
-- `maps/pgc_balkans.json` — **Balkans**: a war-torn village around the author spawn, converted from the Workshop map gm_balkans by Lg (Workshop 1307357127; credit, and removal on request).
-- `maps/pgc_vyten.json` — **Vyten**: the area around the author spawn of gm_vyten, converted from the Workshop map by Raxten (Workshop 1449731878; credit, and removal on request).
-- `maps/pgc_southside.json` — **Southside**: a city block of rp_southside around the author spawn, converted from the Workshop map by Fishke (Workshop 2010286798; credit, and removal on request).
-- `maps/pgc_asheville.json` — **Asheville**: a small town around the author spawn, converted from the Workshop map rp_asheville by VanderAGSN (Workshop 2595136841; credit, and removal on request).
-- `maps/pgc_boreas.json` — **Boreas**: the snowy valley of gm_boreas around the author spawn, its displacement terrain laid as tilted slabs, converted from the Workshop map by Blueberry_pie (Workshop 1572373847; credit, and removal on request).
-- `maps/pgc_bigisland.json` — **Big Island**: the grassy heart of gm_bigisland, its displacement hills laid as tilted slabs, converted from the Workshop map by Comrade Stinger and Hiyu (Workshop 169600867; credit, and removal on request).
-- `maps/pgc_rooftops.json` — **Rooftops**: the rooftops and street of ttt_rooftops_2016, converted from the Workshop map by youmenow1 (Workshop 534491717; credit, and removal on request).
-- `maps/pgc_site.json` — **Construction Site**: a half-built frame climbed by switchback ramps, a tower crane, material piles, a flooded excavation, a sand heap, a rack of glass panes, a site office, and a kicker and bumps for the buggies.
-- `maps/pgc_warehouse.json` — **Warehouse**: a warehouse at dock height with racking full of crates, a catwalk with barrels, high windows, a glazed office, a cold store with an ice floor, and a yard of containers.
-- `maps/pgc_canyon.json` — **Canyon**: two mesas either side of a canyon with a river down it, shallow at the ends and deep in the middle, a road bridge, a balance beam, a broken bridge to jump in a buggy, and boulders to push in.
-- `maps/pgc_harbour.json` — **Harbour**: piers over a basin of water with slipways out, boats to jump onto, quay cranes, a freighter, and a lighthouse with a glass lantern, climbed by a spiral to throw things off.
-- `maps/pgc_bowl.json` — **Fling Bowl**: a 30-degree bowl with two ice chutes and a rim walkway, boulders and sleds to send down it, a rubber pedestal in the middle, and a diving board.
-- `maps/pgc_obstacle.json` — **Obstacle Park**: steps, stepping stones, a beam over a splash pool and a climb to a gate on a button, then a spiral of ledges up a tower whose button opens a vault.
-- `maps/pgc_nature.json` — **Nature**: a meadow with a snow field and an ice rink, a mud pit, a sand beach and a pond, a lava pit with a rock bridge, a frozen lake under thin ice with a diving board, a slime swamp, bushes to hide in, trampolines and a glass greenhouse.
+## Using it
 
-- `maps/pgc_construct_small.json` — **Construct Small**: a concrete yard with a deep water basin, a long brick-walled lane and a grass field behind, ringed by tall plaster walls. Converted from gm_construct_small by Wylie (https://gamebanana.com/mods/60385).
-- `maps/pgc_smallbase.json` — **Small Base**: a small, light concrete base for building and wiring: a brick-walled yard with a grass floor, a second storey round it reached by a ramp, and a small pool. Converted from gm_smallbase by Rouglead (https://gamebanana.com/mods/60684).
+The game picks the maps up through a link (`maps/custom` in the game, made by dot-bootstrap) or, when delivered as a pack, through the game's `dependencies`. To change one of our own maps, edit `tools/build_maps.py` and run it. The format is defined and validated by the game's `maps/pg_data.gd`. See `docs/maps.md` and `docs/building.md` here for details.
+
+## Our maps
+
+Original maps by TMC, MIT licensed.
+
+| Map | Name | What is in it |
+| --- | --- | --- |
+| `pgc_bowl` | Fling Bowl | A 30-degree bowl with two ice chutes and a rim walkway, boulders and sleds to send down it, and a diving board |
+| `pgc_canyon` | Canyon | Two mesas either side of a canyon with a river, a road bridge, a balance beam and a broken bridge to jump in a buggy |
+| `pgc_harbour` | Harbour | Piers over a basin with slipways, boats to jump onto, quay cranes, a freighter and a lighthouse with a spiral to throw things off |
+| `pgc_islands` | Sky Islands | Six floating islands on bridges over a lava lake, and an ice slide from the top one back to the first |
+| `pgc_nature` | Nature | A meadow with a snow field, ice rink, mud pit, sand beach, pond, lava pit, frozen lake, slime swamp, bushes and a greenhouse |
+| `pgc_obstacle` | Obstacle Park | Steps, stepping stones, a beam over a splash pool, a gate on a button, and a spiral of ledges up a tower with a vault |
+| `pgc_plots` | Build Plots | Eight plots of eight grounds (ice and rubber among them) with claim pads round a spawn plaza, a depot of planks and crates, trampolines, a pond and a viewing deck |
+| `pgc_quarry` | Quarry | A two-terrace pit with ramps, rails and a cart, a flooded sump, boulders, barrels to blow up, and a blasting hut with a lever |
+| `pgc_site` | Construction Site | A half-built frame climbed by switchback ramps, a tower crane, material piles, a flooded excavation and a site office |
+| `pgc_slopes` | Slide Hill | A hill to a high deck, sleds at the head of a snow slope with an ice run-out, a halfpipe and a frozen pond with thin ice |
+| `pgc_town` | Town | Two roads, five buildings with glass windows and doors on buttons, a fountain plaza with a stage, and a car park with two buggies |
+| `pgc_warehouse` | Warehouse | Racking full of crates, a catwalk with barrels, a glazed office, a cold store with an ice floor and a yard of containers |
+
+## Converted maps
+
+These are community maps converted with the author's credit. Only the geometry is converted. The authors' textures are not carried: surfaces use the game's materials over Kenney's Prototype Textures (CC0). `tools/import_bsp.py` is the converter (`python3 -I tools/import_bsp.py <map.bsp> <config>`). Each map's document has an `attribution` field.
 
 ## Credits
 
-`pgc_construct_small` (Wylie) and `pgc_smallbase` (Rouglead) are community maps converted with the author's credit; the page of each says nothing against sharing, and the site's default licence line on both is CC BY-NC-ND 4.0, so they are shared non-commercially, credited, with a removal-request contact (the repository issues). Each document carries an `attribution` field. Only the geometry is converted: the authors' textures are not carried, and surfaces use this game's materials over Kenney's Prototype Textures (CC0). A map is taken down when its author asks. `tools/import_bsp.py` is the converter (`python3 -I tools/import_bsp.py <map.bsp> <config>`).
+| Map | Name | Author | Source | Licence |
+| --- | --- | --- | --- | --- |
+| `pgc_asheville` | Asheville | VanderAGSN | [rp_asheville](https://steamcommunity.com/sharedfiles/filedetails/?id=2595136841) | Steam Workshop (no licence stated) |
+| `pgc_balkans` | Balkans | Lg | [gm_balkans](https://steamcommunity.com/sharedfiles/filedetails/?id=1307357127) | Steam Workshop (no licence stated) |
+| `pgc_bigisland` | Big Island | Comrade Stinger and Hiyu | [gm_bigisland](https://steamcommunity.com/sharedfiles/filedetails/?id=169600867) | Steam Workshop (no licence stated) |
+| `pgc_boreas` | Boreas | Blueberry_pie | [gm_boreas](https://steamcommunity.com/sharedfiles/filedetails/?id=1572373847) | Steam Workshop (no licence stated) |
+| `pgc_construct_small` | Construct Small | Wylie | [gm_construct_small](https://gamebanana.com/mods/60385) | CC BY-NC-ND 4.0 |
+| `pgc_deadcity` | Dead City | NuclearGhost | [rp_deadcity](https://steamcommunity.com/sharedfiles/filedetails/?id=1864156937) | Steam Workshop (no licence stated) |
+| `pgc_fork` | Fork | Blueberry_pie | [gm_fork](https://steamcommunity.com/sharedfiles/filedetails/?id=326332456) | Steam Workshop (no licence stated) |
+| `pgc_mallparking` | Mall Parking | bean | [gm_mallparking](https://steamcommunity.com/sharedfiles/filedetails/?id=2619660952) | Steam Workshop (no licence stated) |
+| `pgc_mountain_resort` | Mountain Resort | prvec | [gm_mountainresort](https://steamcommunity.com/sharedfiles/filedetails/?id=2312309380) | Steam Workshop (no licence stated) |
+| `pgc_rooftops` | Rooftops | youmenow1 | [ttt_rooftops_2016](https://steamcommunity.com/sharedfiles/filedetails/?id=534491717) | Steam Workshop (no licence stated) |
+| `pgc_shambles` | Shambles | Fartomaticatron | [gm_shambles](https://steamcommunity.com/sharedfiles/filedetails/?id=151544081) | Steam Workshop (no licence stated) |
+| `pgc_smallbase` | Small Base | Rouglead | [gm_smallbase](https://gamebanana.com/mods/60684) | CC BY-NC-ND 4.0 |
+| `pgc_southside` | South Side | Fishke | [rp_southside](https://steamcommunity.com/sharedfiles/filedetails/?id=2010286798) | Steam Workshop (no licence stated) |
+| `pgc_valley` | Valley | SuspiciouslyAwesome (Tim Richter) | [gm_valley](https://steamcommunity.com/sharedfiles/filedetails/?id=104483504) | Steam Workshop (no licence stated) |
+| `pgc_vyten` | Vyten | Raxten | [gm_vyten](https://steamcommunity.com/sharedfiles/filedetails/?id=1449731878) | Steam Workshop (no licence stated) |
 
-The game picks these up through a link (`game-playground/maps/custom`, made by dot-bootstrap) or, delivered, as a pack the game names under `dependencies`. Edit `tools/build_maps.py` and run it to change a map; the format is described in game-playlot's `maps/pg_data.gd`.
+The two GameBanana maps carry the site's default licence, CC BY-NC-ND 4.0, and are shared non-commercially with credit. The Workshop maps state no licence on their pages. All are credited here, and a map is taken down when its author asks: open an issue at https://github.com/zees-games/playlot-maps/issues.
 
-MIT licensed.
+The repository's own code and original maps are MIT licensed.
